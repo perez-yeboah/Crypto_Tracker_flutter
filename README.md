@@ -1,16 +1,27 @@
-# crypto_tracker
+# 📊 Crypto Tracker (Flutter)
 
-A new Flutter project.
+A simple yet powerful **Flutter crypto tracker app** that fetches live data from the [CoinGecko API](https://www.coingecko.com/en/api).
 
-## Getting Started
+##  Features
+- ✅ Live top 10 cryptocurrencies
+- ✅ Price + 24h % change
+- ✅ Coin logos
+- ✅ 7-day line chart for each coin
+- ✅ Pull-to-refresh
+- ✅ "Top Gainer" / "Top Loser" badges
 
-This project is a starting point for a Flutter application.
+## 📸 Screenshots
+(Add screenshots later from your emulator/device)
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
+- **Flutter** (Dart)
+- **CoinGecko API**
+- **fl_chart** for charts
+- **http** for REST API calls
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+```bash
+git clone https://github.com/your-username/crypto_tracker_flutter.git
+cd crypto_tracker_flutter
+flutter pub get
+flutter run
